@@ -1,0 +1,14 @@
+[project]
+name = "shard-aware-log-tail-follower"
+version = "0.1.0"
+description = "Tails glob-matched log files, tracking inode and offset per file for a merged order."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
